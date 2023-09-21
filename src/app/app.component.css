@@ -1,0 +1,57 @@
+.typewriter h1 {
+  padding-top: 20px;
+  padding-left: 20%;
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden;
+  border-right: 0.15em solid rgb(255, 0, 195);
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 2s steps(30, end), blink-caret 0.5s step-end infinite;
+  
+}
+
+h2 {
+  font-size: 50px;
+  text-align: center;
+  color: #fff;
+  font-family: monospace;
+  animation: changeOpacity 3.5s steps(30, end);
+}
+
+app-menu{
+  animation: changeOpacity 3.5s steps(30, end);
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(143, 23, 23);
+  }
+}
+
+@keyframes changeOpacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+

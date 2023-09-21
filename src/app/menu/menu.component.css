@@ -1,0 +1,40 @@
+
+.menu{
+    background-color: var(--accent-color);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(163, 17, 17);
+    color: rgb(251, 248, 252);
+    font-family: monospace;
+    font-size: larger;
+  }
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+
+  }
+  .menu li {
+    display: inline;
+    margin-right: 20px;
+  }
+  .menu li a {
+    text-decoration: none;
+    color: var(--background-color);
+    background-color: var(--text-color);
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    &:hover {
+      background-color: var(--highlight-color);
+      color: rgb(162, 27, 27);
+    }  
+
+    @keyframes changeOpacity {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 100%;
+      }
+}
+  }
