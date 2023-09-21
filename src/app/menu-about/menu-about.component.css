@@ -1,3 +1,9 @@
+h1{
+  font-size: 20px;
+  text-align: center;
+
+}
+
 .menu{
     margin-top: 100px;
     background-color: var(--accent-color);
@@ -13,8 +19,8 @@
 
   }
   .menu li {
-    display: inline;
-    margin-right: 20px;
+    display: inline-block;
+    margin-left: 200px;
   }
   .menu li a {
     text-decoration: none;
