@@ -9,16 +9,15 @@
   margin: 0 auto;
   letter-spacing: 0.15em;
   animation: typing 2s steps(30, end), blink-caret 0.5s step-end infinite;
-  
 }
 
-.colorDiv{
+.colorDiv {
   color: #fff;
   font-family: monospace;
   text-align: center;
   margin-top: 10px;
   font-size: 15px;
-  
+  animation: changeOpacity 3.5s steps(30, end);
 }
 
 h2 {
@@ -29,7 +28,7 @@ h2 {
   animation: changeOpacity 3.5s steps(30, end);
 }
 
-app-menu{
+app-menu-about {
   animation: changeOpacity 3.5s steps(30, end);
 }
 
@@ -62,5 +61,3 @@ app-menu{
     opacity: 100%;
   }
 }
-
-
