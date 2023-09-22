@@ -1,3 +1,7 @@
-p{
-    color: aliceblue;
+.contactMe{
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+    margin-top: 20PX;
 }

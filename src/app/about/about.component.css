@@ -1,0 +1,9 @@
+.aboutMe{
+    color: white;
+    font-family: monospace;
+    font-size: 30px;
+    text-align: right;
+    margin-top: 50px;
+    margin-right: 100px;
+    display: inline-block;
+}
